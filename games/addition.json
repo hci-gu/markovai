@@ -1,0 +1,47 @@
+{
+  "start": {
+    "actions": {
+      "right": [
+        {
+          "p": 1,
+          "next": {
+            "rewards": [
+              {
+                "p": 1,
+                "value": 10
+              }
+            ]
+          }
+        }
+      ],
+      "up": [
+        {
+          "p": 1,
+          "next": {
+            "rewards": [
+              {
+                "p": 1,
+                "value": 4
+              }
+            ],
+            "actions": {
+              "right": [
+                {
+                  "p": 1,
+                  "next": {
+                    "rewards": [
+                      {
+                        "p": 1,
+                        "value": 7
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  }
+}
