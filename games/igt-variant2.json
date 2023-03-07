@@ -1,0 +1,98 @@
+{
+  "start": {
+    "actions": {
+      "up": [
+        {
+          "p": 1,
+          "rewards": [
+            {
+              "p": 0.25,
+              "value": -6
+            },
+            {
+              "p": 0.75,
+              "value": 2
+            }
+          ],
+          "next": {
+            "rewards": [
+              {
+                "p": 1,
+                "value": 0
+              }
+            ]
+          }
+        }
+      ],
+      "down": [
+        {
+          "p": 1,
+          "rewards": [
+            {
+              "p": 0.5,
+              "value": 1
+            },
+            {
+              "p": 0.5,
+              "value": 0
+            }
+          ],
+          "next": {
+            "rewards": [
+              {
+                "p": 1,
+                "value": 0
+              }
+            ]
+          }
+        }
+      ],
+      "left": [
+        {
+          "p": 1,
+          "rewards": [
+            {
+              "p": 0.75,
+              "value": 1
+            },
+            {
+              "p": 0.25,
+              "value": -2
+            }
+          ],
+          "next": {
+            "rewards": [
+              {
+                "p": 1,
+                "value": 0
+              }
+            ]
+          }
+        }
+      ],
+      "right": [
+        {
+          "p": 1,
+          "rewards": [
+            {
+              "p": 0.5,
+              "value": -3
+            },
+            {
+              "p": 0.5,
+              "value": 2
+            }
+          ],
+          "next": {
+            "rewards": [
+              {
+                "p": 1,
+                "value": 0
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
