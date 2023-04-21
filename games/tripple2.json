@@ -1,0 +1,181 @@
+{
+  "start": {
+    "actions": {
+      "right": [
+        {
+          "p": 1,
+          "next": {
+            "rewards": [
+              {
+                "p": 1,
+                "value": 0
+              }
+            ],
+            "actions": {
+              "down": [
+                {
+                  "p": 1,
+                  "next": {
+                    "rewards": [
+                      {
+                        "p": 0.3333333333333333,
+                        "value": 2
+                      },
+                      {
+                        "p": 0.3333333333333333,
+                        "value": 0
+                      },
+                      {
+                        "p": 0.3333333333333333,
+                        "value": 1
+                      }
+                    ],
+                    "actions": {
+                      "down": [
+                        {
+                          "p": 1,
+                          "next": {
+                            "rewards": [
+                              {
+                                "p": 1,
+                                "value": 0
+                              }
+                            ],
+                            "actions": {
+                              "right": [
+                                {
+                                  "p": 1,
+                                  "next": {
+                                    "rewards": [
+                                      {
+                                        "p": 1,
+                                        "value": 0
+                                      }
+                                    ]
+                                  }
+                                }
+                              ]
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "right": [
+                {
+                  "p": 1,
+                  "next": {
+                    "rewards": [
+                      {
+                        "p": 1,
+                        "value": 0
+                      }
+                    ],
+                    "actions": {
+                      "down": [
+                        {
+                          "p": 1,
+                          "next": {
+                            "rewards": [
+                              {
+                                "p": 0.3333333333333333,
+                                "value": 3
+                              },
+                              {
+                                "p": 0.6666666666666666,
+                                "value": 0
+                              }
+                            ],
+                            "actions": {
+                              "down": [
+                                {
+                                  "p": 1,
+                                  "next": {
+                                    "rewards": [
+                                      {
+                                        "p": 1,
+                                        "value": 0
+                                      }
+                                    ]
+                                  }
+                                }
+                              ]
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "down": [
+        {
+          "p": 1,
+          "next": {
+            "rewards": [
+              {
+                "p": 0.5,
+                "value": 2
+              },
+              {
+                "p": 0.5,
+                "value": 0
+              }
+            ],
+            "actions": {
+              "down": [
+                {
+                  "p": 1,
+                  "next": {
+                    "rewards": [
+                      {
+                        "p": 1,
+                        "value": 0
+                      }
+                    ],
+                    "actions": {
+                      "right": [
+                        {
+                          "p": 1,
+                          "next": {
+                            "rewards": [
+                              {
+                                "p": 1,
+                                "value": 0
+                              }
+                            ],
+                            "actions": {
+                              "right": [
+                                {
+                                  "p": 1,
+                                  "next": {
+                                    "rewards": [
+                                      {
+                                        "p": 1,
+                                        "value": 0
+                                      }
+                                    ]
+                                  }
+                                }
+                              ]
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  }
+}
